@@ -1,0 +1,23 @@
+{
+  "name": "day_algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rea1109/day_algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rea1109/day_algorithm/issues"
+  },
+  "homepage": "https://github.com/Rea1109/day_algorithm#readme",
+  "dependencies": {
+    "prettier": "^2.8.4"
+  }
+}
