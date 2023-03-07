@@ -3,7 +3,9 @@
 function solution(n, m, section) {
   let count = 0
 
-  let wall = new Array(n).fill(0).map((_, idx) => (section.includes(idx + 1) ? false : true))
+  let wall = new Array(n)
+    .fill(0)
+    .map((_, idx) => (section.includes(idx + 1) ? false : true))
 
   for (let i = 0; i < n; i++) {
     if (!wall[i]) {

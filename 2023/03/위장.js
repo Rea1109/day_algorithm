@@ -15,7 +15,9 @@ https: function solution(clothes) {
   let result = sampleCount === 1 ? 0 : 1
 
   for (let i in sample) {
-    sampleCount === 1 ? (result += sample[i].length) : (result *= sample[i].length + 1)
+    sampleCount === 1
+      ? (result += sample[i].length)
+      : (result *= sample[i].length + 1)
   }
 
   return sampleCount === 1 ? result : result - 1
